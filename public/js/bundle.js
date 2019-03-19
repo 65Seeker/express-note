@@ -86,6 +86,28 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/index.less":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/index.less ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"html,\\nbody {\\n  margin: 0;\\n  height: 100%;\\n}\\nul,\\nli {\\n  margin: 0;\\n  padding: 0;\\n  list-style: none;\\n}\\nbody {\\n  font: 14px/1.4 'Arial';\\n}\\na {\\n  text-decoration: none;\\n  color: #fff;\\n}\\n#header {\\n  height: 30px;\\n  font-size: 12px;\\n}\\n#header a {\\n  display: block;\\n  font-size: 12px;\\n  margin-top: 6px;\\n}\\n#header .user-area {\\n  padding-right: 16px;\\n  float: right;\\n}\\n#header .user-area li {\\n  float: left;\\n  margin-left: 5px;\\n}\\n#header .user-area li span {\\n  color: #fff;\\n  display: block;\\n  margin-top: 6px;\\n}\\n#header .user-area img {\\n  height: 18px;\\n  margin-top: 5px;\\n  border-radius: 50%;\\n}\\n#header .setting {\\n  float: right;\\n  margin-left: 9px;\\n  display: none;\\n}\\n#header .add-note {\\n  float: left;\\n  margin-left: 16px;\\n  border: 1px solid #fff;\\n  border-radius: 4px;\\n  padding: 2px 4px;\\n}\\n#header .login {\\n  float: right;\\n  margin-left: 16px;\\n}\\n#content {\\n  position: relative;\\n  height: -webkit-calc(70%);\\n  height: calc(100% - 30px);\\n}\\n@keyframes move-twink-back {\\n  from {\\n    background-position: 0 0;\\n  }\\n  to {\\n    background-position: -10000px 5000px;\\n  }\\n}\\n.stars,\\n.twinkling {\\n  position: absolute;\\n  top: 0;\\n  left: 0;\\n  right: 0;\\n  bottom: 0;\\n  width: 100%;\\n  height: 100%;\\n  display: block;\\n}\\n.stars {\\n  background: #000 url(http://7xpvnv.com2.z0.glb.qiniucdn.com/ba25c630-1c91-4ac1-a3de-65555d78c147.png) repeat top center;\\n  z-index: -2;\\n}\\n.twinkling {\\n  background: transparent url(http://7xpvnv.com2.z0.glb.qiniucdn.com/493b97e6-c499-4b41-a26b-8942873615b0.png) repeat top center;\\n  z-index: -1;\\n  animation: move-twink-back 200s linear infinite;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/less/index.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/note.less":
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/note.less ***!
+  \*********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".note {\\n  position: absolute;\\n  color: #333;\\n  width: 160px;\\n  margin: 20px 10px;\\n  transition: all 0.5s;\\n}\\n.note .note-head {\\n  height: 20px;\\n  background-color: #ea9b35;\\n  cursor: move;\\n  font-size: 12px;\\n  line-height: 20px;\\n  padding-left: 10px;\\n  color: #666;\\n}\\n.note .note-head:hover .delete {\\n  opacity: 1;\\n}\\n.note .note-head:before {\\n  position: absolute;\\n  left: 50%;\\n  top: -11px;\\n  margin-left: -32px;\\n  content: ' ';\\n  display: block;\\n  width: 64px;\\n  height: 18px;\\n  background: #35bba3;\\n}\\n.note .note-head:after {\\n  position: absolute;\\n  left: 50%;\\n  margin-left: 32px;\\n  top: -11px;\\n  z-index: -1;\\n  content: '';\\n  display: block;\\n  width: 0;\\n  height: 0;\\n  border-left: 5px solid #299683;\\n  border-top: 18px solid transparent;\\n}\\n.note .note-ct {\\n  padding: 10px;\\n  background-color: #efb04e;\\n  outline: none;\\n}\\n.note .delete {\\n  position: absolute;\\n  top: 4px;\\n  right: 4px;\\n  font-size: 12px;\\n  color: #fff;\\n  cursor: pointer;\\n  opacity: 0;\\n  transition: opacity 0.3s;\\n}\\n.draggable {\\n  opacity: 0.8;\\n  cursor: move;\\n  transition: none;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/less/note.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/toast.less":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/toast.less ***!
@@ -138,7 +160,7 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Toast = __webpack_require__(/*! ../mod/toast.js */ \"./src/js/mod/toast.js\").Toast;\r\n\r\nToast(\"Hello World!\");\n\n//# sourceURL=webpack:///./src/js/app/index.js?");
+eval("__webpack_require__(/*! ../../less/index.less */ \"./src/less/index.less\");\r\nvar $=__webpack_require__(/*! ../lib/jquery-3.2.1.min.js */ \"./src/js/lib/jquery-3.2.1.min.js\");\r\nvar NoteManager = __webpack_require__(/*! ../mod/note-manager.js */ \"./src/js/mod/note-manager.js\").NoteManager;\r\nvar Event = __webpack_require__(/*! ../mod/event.js */ \"./src/js/mod/event.js\");\r\nvar WaterFall = __webpack_require__(/*! ../mod/waterfall.js */ \"./src/js/mod/waterfall.js\");\r\nvar Toast =__webpack_require__(/*! ../mod/toast.js */ \"./src/js/mod/toast.js\");\r\nNoteManager.load();\r\n\r\n$('.add-note').on('click', function() {\r\n  NoteManager.add();\r\n})\r\n\r\nEvent.on('waterfall', function(){\r\n  WaterFall.init($('#content'));\r\n})\r\n\r\nToast('hello world')\n\n//# sourceURL=webpack:///./src/js/app/index.js?");
 
 /***/ }),
 
@@ -153,6 +175,39 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! jQuery
 
 /***/ }),
 
+/***/ "./src/js/mod/event.js":
+/*!*****************************!*\
+  !*** ./src/js/mod/event.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var $=__webpack_require__(/*! ../lib/jquery-3.2.1.min.js */ \"./src/js/lib/jquery-3.2.1.min.js\");\n  var EventCenter = (function(){\n\n    var events = {};\n\n    function on(evt, handler){\n      events[evt] = events[evt] || []; \n\n      events[evt].push({\n        handler: handler\n      });\n    }\n\n    function fire(evt, args){\n      if(!events[evt]){\n        return;\n      }\n      for(var i=0; i<events[evt].length; i++){\n        events[evt][i].handler(args);\n      }\n      \n    }\n\n    return {\n      on: on,\n      fire: fire\n    }\n  })();\n\n  module.exports = EventCenter;\n\n\n\n\n\n  // EventCenter.on('text-change', function(data){\n  //  console.log(data);\n  // });\n  \n  // EventCenter.on('text-change', function(data){\n  //  alert(1);\n  // });\n  \n\n  // EventCenter.fire('text-change', 100);\n\n\n//# sourceURL=webpack:///./src/js/mod/event.js?");
+
+/***/ }),
+
+/***/ "./src/js/mod/note-manager.js":
+/*!************************************!*\
+  !*** ./src/js/mod/note-manager.js ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var Toast = __webpack_require__(/*! ./toast.js */ \"./src/js/mod/toast.js\").Toast;\nvar Note = __webpack_require__(/*! ./note.js */ \"./src/js/mod/note.js\").Note;\nvar Toast = __webpack_require__(/*! ./toast.js */ \"./src/js/mod/toast.js\").Toast;\nvar Event = __webpack_require__(/*! ./event.js */ \"./src/js/mod/event.js\");\nvar $=__webpack_require__(/*! ../lib/jquery-3.2.1.min.js */ \"./src/js/lib/jquery-3.2.1.min.js\");\n\nvar NoteManager = (function(){\n\n  function load() {\n    $.get('/api/notes')\n      .done(function(ret){\n        if(ret.status == 0){\n          $.each(ret.data, function(idx, article) {\n              new Note({\n                id: article.id,\n                context: article.text,\n                username: article.username\n              });\n          });\n\n          Event.fire('waterfall');\n        }else{\n          Toast(ret.errorMsg);\n        }\n      })\n      .fail(function(){\n        Toast('网络异常');\n      });\n\n\n  }\n\n  function add(){\n    new Note();\n  }\n\n  return {\n    load: load,\n    add: add\n  }\n\n})();\n\nmodule.exports.NoteManager = NoteManager\n\n//# sourceURL=webpack:///./src/js/mod/note-manager.js?");
+
+/***/ }),
+
+/***/ "./src/js/mod/note.js":
+/*!****************************!*\
+  !*** ./src/js/mod/note.js ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ../../less/note.less */ \"./src/less/note.less\");\nvar $=__webpack_require__(/*! ../lib/jquery-3.2.1.min.js */ \"./src/js/lib/jquery-3.2.1.min.js\");\nvar Toast = __webpack_require__(/*! ./toast.js */ \"./src/js/mod/toast.js\").Toast;\nvar Event = __webpack_require__(/*! ./event.js */ \"./src/js/mod/event.js\");\n\nfunction Note(opts){\n  this.initOpts(opts);\n  this.createNote();\n  this.setStyle();\n  this.bindEvent();\n}\nNote.prototype = {\n  colors: [\n    ['#ea9b35','#efb04e'], // headColor, containerColor\n    ['#dd598b','#e672a2'],\n    ['#eee34b','#f2eb67'],\n    ['#c24226','#d15a39'],\n    ['#c1c341','#d0d25c'],\n    ['#3f78c3','#5591d2']\n  ],\n\n  defaultOpts: {\n    id: '',   //Note的 id\n    $ct: $('#content').length>0?$('#content'):$('body'),  //默认存放 Note 的容器\n    context: 'input here'  //Note 的内容\n  },\n\n  initOpts: function (opts) {\n    this.opts = $.extend({}, this.defaultOpts, opts||{});\n    if(this.opts.id){\n       this.id = this.opts.id;\n    }\n  },\n\n  createNote: function () {\n    var tpl =  '<div class=\"note\">'\n              + '<div class=\"note-head\"><span class=\"username\"></span><span class=\"delete\">&times;</span></div>'\n              + '<div class=\"note-ct\" contenteditable=\"true\"></div>'\n              +'</div>';\n    this.$note = $(tpl);\n    this.$note.find('.note-ct').text(this.opts.context);\n    this.$note.find('.username').text(this.opts.username);\n    this.opts.$ct.append(this.$note);\n    if(!this.id)  this.$note.css('bottom', '10px');  //新增放到右边\n  },\n\n  setStyle: function () {\n    var color = this.colors[Math.floor(Math.random()*6)];\n    this.$note.find('.note-head').css('background-color', color[0]);\n    this.$note.find('.note-ct').css('background-color', color[1]);\n  },\n\n  setLayout: function(){\n    var self = this;\n    if(self.clk){\n      clearTimeout(self.clk);\n    }\n    self.clk = setTimeout(function(){\n      Event.fire('waterfall');\n    },100);\n  },\n\n  bindEvent: function () {\n    var self = this,\n        $note = this.$note,\n        $noteHead = $note.find('.note-head'),\n        $noteCt = $note.find('.note-ct'),\n        $delete = $note.find('.delete');\n\n    $delete.on('click', function(){\n      self.delete();\n    })\n\n    //contenteditable没有 change 事件，所有这里做了模拟通过判断元素内容变动，执行 save\n    $noteCt.on('focus', function() {\n      if($noteCt.html()=='input here') $noteCt.html('');\n      $noteCt.data('before', $noteCt.html());\n    }).on('blur paste', function() {\n      if( $noteCt.data('before') != $noteCt.html() ) {\n        $noteCt.data('before',$noteCt.html());\n        self.setLayout();\n        if(self.id){\n          self.edit($noteCt.html())\n        }else{\n          self.add($noteCt.html())\n        }\n      }\n    });\n\n    //设置笔记的移动\n    $noteHead.on('mousedown', function(e){\n      var evtX = e.pageX - $note.offset().left,   //evtX 计算事件的触发点在 dialog内部到 dialog 的左边缘的距离\n          evtY = e.pageY - $note.offset().top;\n      $note.addClass('draggable').data('evtPos', {x:evtX, y:evtY}); //把事件到 dialog 边缘的距离保存下来\n    }).on('mouseup', function(){\n       $note.removeClass('draggable').removeData('pos');\n    });\n\n    $('body').on('mousemove', function(e){\n      $('.draggable').length && $('.draggable').offset({\n        top: e.pageY-$('.draggable').data('evtPos').y,    // 当用户鼠标移动时，根据鼠标的位置和前面保存的距离，计算 dialog 的绝对位置\n        left: e.pageX-$('.draggable').data('evtPos').x\n      });\n    });\n  },\n\n  edit: function (msg) {\n    var self = this;\n    $.post('/api/notes/edit',{\n        id: this.id,\n        note: msg\n      }).done(function(ret){\n      if(ret.status === 0){\n        Toast('update success');\n      }else{\n        Toast(ret.errorMsg);\n      }\n    })\n  },\n\n  add: function (msg){\n    console.log('addd...');\n    var self = this;\n    $.post('/api/notes/add', {note: msg})\n      .done(function(ret){\n        if(ret.status === 0){\n          Toast('add success');\n        }else{\n          self.$note.remove();\n          Event.fire('waterfall')\n          Toast(ret.errorMsg);\n        }\n      });\n    //todo\n  },\n\n  delete: function(){\n    var self = this;\n    $.post('/api/notes/delete', {id: this.id})\n      .done(function(ret){\n        if(ret.status === 0){\n          Toast('delete success');\n          self.$note.remove();\n          Event.fire('waterfall')\n        }else{\n          Toast(ret.errorMsg);\n        }\n    });\n\n  }\n\n};\n\nmodule.exports.Note = Note;\n\n\n\n//# sourceURL=webpack:///./src/js/mod/note.js?");
+
+/***/ }),
+
 /***/ "./src/js/mod/toast.js":
 /*!*****************************!*\
   !*** ./src/js/mod/toast.js ***!
@@ -160,7 +215,40 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*! jQuery
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ../../less/toast.less */ \"./src/less/toast.less\");\nvar $ = __webpack_require__(/*! ../lib/jquery-3.2.1.min.js */ \"./src/js/lib/jquery-3.2.1.min.js\")\n\nfunction toast(msg, time){\n  this.msg = msg;\n  this.dismissTime = time||1000;  //ms\n  this.createToast();\n  this.showToast();\n}\ntoast.prototype = {\n  createToast: function(){\n    var tpl = '<div class=\"toast\">'+this.msg+'</div>';\n    this.$toast = $(tpl);\n    $('body').append(this.$toast);\n  },\n  showToast: function(){\n    var self = this;\n    this.$toast.fadeIn(300, function(){\n      setTimeout(function(){\n         self.$toast.fadeOut(300,function(){\n           self.$toast.remove();\n         });\n      }, self.dismissTime);\n    });\n\n  }\n};\n\nfunction Toast(msg,time){\n  return new toast(msg, time);\n}\n\nmodule.exports.Toast = Toast;\n\n//# sourceURL=webpack:///./src/js/mod/toast.js?");
+eval("__webpack_require__(/*! ../../less/toast.less */ \"./src/less/toast.less\");\n\nvar $=__webpack_require__(/*! ../lib/jquery-3.2.1.min.js */ \"./src/js/lib/jquery-3.2.1.min.js\");\n\nfunction toast(msg, time){\n  this.msg = msg;\n  this.dismissTime = time||1000;  //ms\n  this.createToast();\n  this.showToast();\n}\ntoast.prototype = {\n  createToast: function(){\n    var tpl = '<div class=\"toast\">'+this.msg+'</div>';\n    this.$toast = $(tpl);\n    $('body').append(this.$toast);\n  },\n  showToast: function(){\n    var self = this;\n    this.$toast.fadeIn(300, function(){\n      setTimeout(function(){\n         self.$toast.fadeOut(300,function(){\n           self.$toast.remove();\n         });\n      }, self.dismissTime);\n    });\n\n  }\n};\n\nfunction Toast(msg,time){\n  return new toast(msg, time);\n}\n\nmodule.exports.Toast = Toast;\n\n//# sourceURL=webpack:///./src/js/mod/toast.js?");
+
+/***/ }),
+
+/***/ "./src/js/mod/waterfall.js":
+/*!*********************************!*\
+  !*** ./src/js/mod/waterfall.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var $=__webpack_require__(/*! ../lib/jquery-3.2.1.min.js */ \"./src/js/lib/jquery-3.2.1.min.js\");\nvar WaterFall = (function(){\n  var $ct;\n  var $items;\n\n  function render($c){\n    $ct = $c;\n    $items = $ct.children();\n\n    var nodeWidth = $items.outerWidth(true),\n      colNum = parseInt($(window).width()/nodeWidth),\n      colSumHeight = [];\n\n    for(var i = 0; i<colNum;i++){\n      colSumHeight.push(0);\n    }\n\n    $items.each(function(){\n      var $cur = $(this);\n\n      //colSumHeight = [100, 250, 80, 200]\n\n      var idx = 0,\n        minSumHeight = colSumHeight[0];\n\n      for(var i=0;i<colSumHeight.length; i++){\n        if(colSumHeight[i] < minSumHeight){\n          idx = i;\n          minSumHeight = colSumHeight[i];\n        }\n      }\n\n      $cur.css({\n        left: nodeWidth*idx,\n        top: minSumHeight\n      });\n      colSumHeight[idx] = $cur.outerHeight(true) + colSumHeight[idx];\n    });\n  }\n\n\n  $(window).on('resize', function(){\n    render($ct);\n  })\n\n\n  return {\n    init: render\n  }\n})();\n\nmodule.exports = WaterFall\n\n\n\n//# sourceURL=webpack:///./src/js/mod/waterfall.js?");
+
+/***/ }),
+
+/***/ "./src/less/index.less":
+/*!*****************************!*\
+  !*** ./src/less/index.less ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/less-loader/dist/cjs.js!./index.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/index.less\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/less/index.less?");
+
+/***/ }),
+
+/***/ "./src/less/note.less":
+/*!****************************!*\
+  !*** ./src/less/note.less ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/less-loader/dist/cjs.js!./note.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/less/note.less\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/less/note.less?");
 
 /***/ }),
 

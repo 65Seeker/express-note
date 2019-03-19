@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "node ./bin/www",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "webpack": "webpack --config=webpack.config.js",
